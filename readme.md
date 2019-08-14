@@ -1,5 +1,7 @@
 # swork-claim-clients
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/justin-lee-collins/swork-claim-clients.svg)](https://greenkeeper.io/)
+
 swork-claim-clients is a middleware designed to take immediate control of any connected clients. It is built with TypeScript and async methods.
 
 ### Example

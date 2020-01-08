@@ -1,8 +1,19 @@
 # swork-claim-clients
 
-swork-claim-clients is a middleware designed to take immediate control of any connected clients. It is built with TypeScript and async methods.
+swork-claim-clients is a [swork](https://www.npmjs.com/package/swork) middleware designed to take immediate control of any connected clients. It is built with TypeScript and async methods.
 
-### Example
+**License**
+
+MIT
+
+**Installation**
+
+`npm install swork-claim-clients`
+
+`yarn add swork-claim-clients`
+
+
+**Example**
 
 ```ts
 import { Swork } from "swork";
@@ -13,20 +24,6 @@ const app = new Swork();
 app.use(claimClients());
 
 app.listen();
-```
-
-## Installation
-
-Install via npm:
-
-```ts
-npm install swork-claim-clients
-```
-
-Install via yarn:
-
-```ts
-yarn add swork-claim-clients
 ```
 
 ## Contact
